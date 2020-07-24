@@ -6,7 +6,7 @@ var search = [];
 
 
 // FUNCTIONS // 
-
+// This generates the map based off th location of the ticket request //
 function initMap(lat, lng, targetIndex) {
     var latlng = new google.maps.LatLng(lat, lng);
 
